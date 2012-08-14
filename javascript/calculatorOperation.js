@@ -10,7 +10,7 @@
 $(document).ready(function () {
     var calculator = new Calculator();
 
-    $('.calculator input[type=button]').click(function() {
+    $('input[type=button]').click(function() {
             calculator.enter(this.value);
             $('.display').val(calculator.display());
    });

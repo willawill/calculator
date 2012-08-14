@@ -1,8 +1,13 @@
 function Calculator() {
-    var inputValue = "";
+    var inputValue = "0";
     this.enter = function (input) {
         if (!isNaN(input)) {
-            if (!(inputValue.length == 0 && input == 0))
+            if (inputValue == "0" && input != 0)
+                inputValue = input;
+
+            else if(inputValue == "0" && input == 0)
+                inputValue = "0" ;
+            else
                 inputValue += input;
         }
         else
