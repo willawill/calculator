@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3763e565-e071-4d2d-8c0d-ccb5ff703d85" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/calculator.js" afterPath="$PROJECT_DIR$/javascript/calculator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/calculatorOperation.js" afterPath="$PROJECT_DIR$/javascript/calculatorOperation.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/calculator.spec.js" afterPath="$PROJECT_DIR$/spec/calculator.spec.js" />
     </list>
     <ignored path="calculator.iws" />
@@ -63,19 +61,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="calculator.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="calculator.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javascript/calculator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="41" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
+            <state line="64" column="12" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.67054266">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calculatorOperation.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="calculatorOperation.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/calculatorOperation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="89" selection-start="387" selection-end="387" vertical-scroll-proportion="0.3318584">
+            <state line="16" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#160#0" expanded="false" />
               </folding>
@@ -86,7 +84,7 @@
       <file leaf-file-name="calculator.spec.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/calculator.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="7" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.0">
+            <state line="96" column="56" selection-start="3181" selection-end="3181" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,7 +93,7 @@
       <file leaf-file-name="calculator.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/calculator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="54" selection-start="895" selection-end="901" vertical-scroll-proportion="-4.375">
+            <state line="27" column="54" selection-start="895" selection-end="901" vertical-scroll-proportion="14.375">
               <folding />
             </state>
           </provider>
@@ -133,15 +131,15 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/web/calculator.html" />
-        <option value="$PROJECT_DIR$/javascript/calculator.js" />
         <option value="$PROJECT_DIR$/javascript/calculatorOperation.js" />
         <option value="$PROJECT_DIR$/spec/calculator.spec.js" />
+        <option value="$PROJECT_DIR$/javascript/calculator.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="800" />
-    <option name="height" value="600" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -439,7 +437,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="800" height="600" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -546,31 +544,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/calculator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="54" selection-start="895" selection-end="901" vertical-scroll-proportion="-4.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/calculator.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="7" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/calculator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="41" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
+        <state line="27" column="54" selection-start="895" selection-end="901" vertical-scroll-proportion="14.375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/calculatorOperation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="89" selection-start="387" selection-end="387" vertical-scroll-proportion="0.3318584">
+        <state line="16" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#160#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/calculator.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="56" selection-start="3181" selection-end="3181" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/calculator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="12" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.67054266">
+          <folding />
         </state>
       </provider>
     </entry>

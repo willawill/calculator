@@ -47,17 +47,71 @@ describe("Calculator", function () {
 
     });
 
-    describe("Click on button", function () {
-        describe("when click CE ", function () {
-            beforeEach(function () {
-                calculator.enter('232');
+    describe("Do addition operation", function () {
+        beforeEach(function () {
+            calculator.enter('2');
 
-            })
+        })
+        describe("when click add button and enter another number", function () {
+            it("should first clear the display", function () {
+                calculator.enter('+');
+                expect(calculator.display()).toEqual("");
+            });
+
+            it("should display 5", function () {
+                calculator.enter('+');
+                calculator.enter('5');
+                expect(calculator.display()).toEqual("5");
+            });
+
+            it("should display 7 after click '=' button", function () {
+                calculator.enter('+');
+                calculator.enter('5');
+                calculator.enter('=');
+                expect(calculator.display()).toEqual("7");
+            });
+        });
+    })
+
+    describe("Do minus operation", function () {
+        beforeEach(function () {
+            calculator.enter('2');
+
+        })
+        describe("when click minus button and enter another number", function () {
+            it("should first clear the display", function () {
+                calculator.enter('-');
+                expect(calculator.display()).toEqual("");
+            });
+
+            it("should display 5", function () {
+                calculator.enter('-');
+                calculator.enter('5');
+                expect(calculator.display()).toEqual("5");
+            });
+
+            it("should display -3 after click '=' button", function () {
+                calculator.enter('-');
+                calculator.enter('5');
+                calculator.enter('=');
+                expect(calculator.display()).toEqual("-3");
+            });
+        });
+    })
+
+    describe("Click on operation button", function () {
+        beforeEach(function () {
+            calculator.enter('2');
+
+        })
+        describe("when click CE ", function () {
             it("should clear the display", function () {
                 calculator.enter('CE');
                 expect(calculator.display()).toEqual("");
             });
         });
+
+
     });
 });
 
