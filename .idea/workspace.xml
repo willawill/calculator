@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3763e565-e071-4d2d-8c0d-ccb5ff703d85" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/calculator.iml" afterPath="$PROJECT_DIR$/Calculator.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/calculatorOperation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/calculator.js" afterPath="$PROJECT_DIR$/javascript/calculator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/calculator.spec.js" afterPath="$PROJECT_DIR$/spec/calculator.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/calculator.html" afterPath="$PROJECT_DIR$/web/calculator.html" />
     </list>
     <ignored path="calculator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,19 +64,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="calculator.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="calculator.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/calculator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="8" selection-start="70" selection-end="70" vertical-scroll-proportion="0.07751938">
+            <state line="5" column="16" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calculator.spec.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="calculatorOperation.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/calculatorOperation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="33" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#160#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calculator.spec.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/calculator.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="38" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+            <state line="17" column="40" selection-start="519" selection-end="519" vertical-scroll-proportion="0.32945737">
               <folding />
             </state>
           </provider>
@@ -82,7 +96,16 @@
       <file leaf-file-name="calculator.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/calculator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="27" column="54" selection-start="895" selection-end="901" vertical-scroll-proportion="-16.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calculator.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/calculator.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="372" selection-end="402" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,20 +122,49 @@
       </file>
     </leaf>
   </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/calculator.spec.js" />
+        <option value="$PROJECT_DIR$/web/calculator.html" />
+        <option value="$PROJECT_DIR$/javascript/calculatorOperation.js" />
         <option value="$PROJECT_DIR$/javascript/calculator.js" />
+        <option value="$PROJECT_DIR$/spec/calculator.spec.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1440" />
     <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSCheckFunctionSignatures</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -196,6 +248,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -456,13 +522,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/calculator.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpecRunner.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="9.375">
@@ -470,16 +529,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/calculator.spec.js">
+    <entry file="file://$PROJECT_DIR$/lib/jquery-1.7.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="38" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/calculator.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="372" selection-end="402" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/calculator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="54" selection-start="895" selection-end="901" vertical-scroll-proportion="-16.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/calculatorOperation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="33" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#160#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/calculator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="70" selection-end="70" vertical-scroll-proportion="0.07751938">
+        <state line="5" column="16" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/calculator.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="40" selection-start="519" selection-end="519" vertical-scroll-proportion="0.32945737">
           <folding />
         </state>
       </provider>
