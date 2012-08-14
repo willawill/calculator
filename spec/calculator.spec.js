@@ -25,11 +25,15 @@ describe("Calculator", function () {
 
     describe("Click on button", function () {
         describe("when click CE ", function () {
+            beforeEach(function(){
+                calculator.enter('232');
+
+            })
             it("should clear the display", function () {
                 calculator.enter('CE');
                 expect(calculator.display()).toEqual("");
             });
-       });
+        });
     });
 });
 

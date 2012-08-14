@@ -1,9 +1,10 @@
 function Calculator() {
     var inputValue = "";
     this.enter = function (input) {
-        if (!isNaN(input))
-            if (!(inputValue.length == 0 && input ==0))
+        if (!isNaN(input)) {
+            if (!(inputValue.length == 0 && input == 0))
                 inputValue += input;
+        }
         else
             this.operation(input)
     };
@@ -16,8 +17,8 @@ function Calculator() {
         inputValue = "";
     }
 
-    this.operation = function(input){
-         if (input=='CE')
+    this.operation = function (input) {
+        if (input == 'CE')
             this.clear()
     }
 

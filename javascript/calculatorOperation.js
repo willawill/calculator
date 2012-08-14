@@ -13,6 +13,5 @@ $(document).ready(function () {
     $('.calculator input[type=button]').click(function() {
             calculator.enter(this.value);
             $('.display').val(calculator.display());
-
-    });
+   });
 });
